@@ -12,7 +12,7 @@ export default function Home() {
       
       <NavBar />
 
-      <ul className=' w-full p-4 sm:py-4 sm:px-10 flex flex-wrap gap-2 sm:gap-5 justify-center items-center'>
+      <ul className=' w-full p-4 sm:py-4 sm:px-10 flex flex-wrap gap-2 sm:gap-5 justify-start items-center'>
         {
           movies.length===0 ?
           (<div>
